@@ -1,5 +1,5 @@
 {
-  "name": "verilog-preprocessor",
+  "name": "vpreproc",
   "version": "0.1.0",
   "description": "Verilog preprocessor bindings for Node.js",
   "main": "lib/index.js",
