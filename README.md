@@ -1,2 +1,3 @@
 # node-verilog-preprocessor
-Verilog preprocessor for Node.js
+
+Verilog preprocessor bindings for Node.js
