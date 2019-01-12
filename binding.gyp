@@ -1,12 +1,12 @@
 {
   "targets": [
     {
-      "target_name": "nodeVerilogPreprocessor",
+      "target_name": "vpreproc",
       "cflags!": [ "-fno-exceptions" ],
       "cflags_cc!": [ "-fno-exceptions" ],
       "defines": [ 'NAPI_DISABLE_CPP_EXCEPTIONS' ],
       "sources": [
-        "node-verilog-preprocessor.cpp",
+        "vpreproc.cpp",
         "Verilog-Perl/Preproc/VFileLine.cpp",
         # "Verilog-Perl/Preproc/VPreProc.cpp",
       ],
