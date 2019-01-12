@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/drom/node-verilog-preprocessor.git"
+    "url": "git+https://github.com/drom/vpreproc.git"
   },
   "author": "Aliaksei Chapyzhenka",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/drom/node-verilog-preprocessor/issues"
+    "url": "https://github.com/drom/vpreproc/issues"
   },
-  "homepage": "https://github.com/drom/node-verilog-preprocessor#readme",
+  "homepage": "https://github.com/drom/vpreproc#readme",
   "dependencies": {
     "bindings": "^1.3.1",
     "node-addon-api": "^1.6.2"
