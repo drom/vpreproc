@@ -1,21 +1,25 @@
 [![Build Status](https://travis-ci.org/drom/vpreproc.svg?branch=master)](https://travis-ci.org/drom/vpreproc)
 [![npm version](https://badge.fury.io/js/vpreproc.svg)](https://badge.fury.io/js/vpreproc)
 
-Streaming SystemVerilog preprocessor in JavaScript
+Streaming SystemVerilog preprocessor
 
-## Use
+## Build
+
+Using [llparse](https://github.com/nodejs/llparse) to generate preprocessor.
 
 ```
-npm i vpreproc
+npm i
+node bin/build.js
 ```
 
-```js
-const vpp = require('vpreproc');
+Result files are:
+
 ```
-
-## API
-
-???
+verilog_preprocessor.h
+verilog_preprocessor.c
+verilog_preprocessor.bc
+verilog_preprocessor.dot
+```
 
 ## Testing
 
