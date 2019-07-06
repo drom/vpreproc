@@ -1,12 +1,12 @@
 {
   "name": "vpreproc",
   "version": "0.1.0",
-  "description": "Verilog preprocessor bindings for Node.js",
+  "description": "Verilog preprocessor",
   "main": "lib/index.js",
   "gypfile": true,
   "scripts": {
-    "test": "eslint lib/ && nyc --reporter=lcov mocha",
-    "install": "node-gyp rebuild"
+    "test": "eslint bin",
+    "cover": "nyc --reporter=lcov mocha"
   },
   "repository": {
     "type": "git",
@@ -19,27 +19,18 @@
   },
   "homepage": "https://github.com/drom/vpreproc#readme",
   "dependencies": {
-    "bindings": "^1.3.1",
-    "node-addon-api": "^1.6.2"
+    "llparse": "^6.1.1"
   },
   "devDependencies": {
-    "@drom/eslint-config": "^0.7.0",
+    "@drom/eslint-config": "^0.10.0",
     "chai": "^4.2.0",
-    "eslint": "^5.12.0",
-    "mocha": "^5.2.0",
-    "nyc": "^13.1.0"
+    "eslint": "^5.16.0",
+    "llparse-dot": "^1.0.1",
+    "llparse-test-fixture": "^3.3.1",
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.1"
   },
   "eslintConfig": {
-    "extends": "@drom/eslint-config/eslint4/node4",
-    "rules": {
-      "indent": [
-        1,
-        2
-      ],
-      "no-console": 1
-    },
-    "parserOptions": {
-      "ecmaVersion": 2017
-    }
+    "extends": "@drom/eslint-config/eslint4/node8"
   }
 }
