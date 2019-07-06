@@ -5,12 +5,11 @@ node_js:
   - "10"
   - "9"
   - "8"
-  - "7"
   - "6"
 os:
   - linux
   - osx
-  - windows
+# - windows
 sudo: false
 install:
   - npm --version
