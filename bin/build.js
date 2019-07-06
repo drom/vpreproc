@@ -5,7 +5,7 @@ const fs = require('fs');
 const llparse = require('llparse');
 const llparseDot = require('llparse-dot');
 
-const prj = 'verilog_preprocessor';
+const prj = 'vprep';
 
 const p = new llparse.LLParse(prj);
 

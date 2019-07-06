@@ -5,8 +5,8 @@
   "main": "lib/index.js",
   "gypfile": true,
   "scripts": {
-    "test": "eslint bin",
-    "cover": "nyc --reporter=lcov mocha"
+    "test": "eslint bin && nyc --reporter=lcov mocha",
+    "install": "node-gyp rebuild"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/drom/vpreproc#readme",
   "dependencies": {
+    "bindings": "^1.5.0",
     "llparse": "^6.1.1"
   },
   "devDependencies": {

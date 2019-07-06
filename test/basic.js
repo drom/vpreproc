@@ -1,11 +1,17 @@
 'use strict';
 
 const expect = require('chai').expect;
-const lib = require('../lib/index.js');
+const lib = require('../index.js');
 
 describe('basic', () => {
-  it('test', done => {
-    expect(lib()).to.be.an('object');
+  it('type', done => {
+    expect(lib).to.be.an('object');
+    done();
+  });
+  it('type', done => {
+    const cxt = lib.init();
+    expect(cxt).to.be.an('object');
+    console.log(cxt);
     done();
   });
 });
