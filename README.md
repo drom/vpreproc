@@ -3,7 +3,12 @@
 
 Streaming SystemVerilog preprocessor
 
-## Build
+## Features
+  * async
+  * streaming
+  * source maps https://github.com/mozilla/source-map
+
+## Use
 
 Using [llparse](https://github.com/nodejs/llparse) to generate preprocessor.
 
@@ -28,6 +33,7 @@ npm test
 ```
 
 ### Inspired by:
+  * https://www.veripool.org/papers/Preproc_Good_Evil_SNUGBos10_paper.pdf
   * [Verilog-Perl](https://www.veripool.org/wiki/verilog-perl)
   * https://github.com/creationix/jsonparse
   * https://github.com/Floby/node-json-streams
@@ -36,6 +42,9 @@ npm test
   * https://github.com/jimhigson/oboe.js
   * https://github.com/uhop/stream-json
   * https://github.com/dscape/clarinet
+  * https://github.com/isaacs/sax-js
+  * https://www.sweetjs.org/
+
 
 ### License
 
